@@ -1,4 +1,4 @@
-# Profile UI Card
+# 1) Profile UI Card
 
 Complete Project that have done with HTML CSS
 
@@ -9,6 +9,4 @@ Complete Project that have done with HTML CSS
 
 ## OUTPUT
 
-```markdown
 ![Project Screenshot](./images/card.png)
-```
