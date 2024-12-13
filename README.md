@@ -1,2 +1,14 @@
-# html_css_projects
- this is the complete learning html css projects
+# Profile UI Card
+
+Complete Project that have done with HTML CSS
+
+## Technologies Used
+
+- HTML
+- CSS
+
+## OUTPUT
+
+```markdown
+![Project Screenshot](./images/card.png)
+```
