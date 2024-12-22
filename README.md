@@ -41,4 +41,6 @@ Complete Project that have done with HTML CSS
 - HTML
 - CSS
 
-![Project Video](./videos/landing_page.mp4)
+## OUTPUT
+
+https://github.com/user-attachments/assets/6fc6a794-551e-47ce-a12a-d7988753d951
