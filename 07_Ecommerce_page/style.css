@@ -1,0 +1,155 @@
+/* Import Poppins font family */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #edecec;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Color scheme */
+/* :root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --success-color: #28a745;
+  --danger-color: #dc3545;
+  --warning-color: #ffc107;
+  --info-color: #17a2b8;
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
+} */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #007bff;
+  padding: 20px;
+  align-items: center;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+header ul li a:hover {
+  color: #ffa115;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0px;
+}
+
+main section {
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+section .product {
+  height: 100%;
+  width: 350px;
+  background-color: orange;
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.product .product-image {
+  height: 220px;
+  width: 300px;
+}
+
+.product-image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+section .product:hover {
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px) translateX(-3px);
+}
+
+.product .product-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.product-data h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.product-data p {
+  font-size: 16px;
+  color: #007bff;
+}
+
+.product-data button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 2px;
+}
+
+.product-data button:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #007bff;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin-top: 16px;
+}
