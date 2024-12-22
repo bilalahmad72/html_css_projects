@@ -60,6 +60,4 @@ Complete Project that have done with HTML CSS
 
 ## OUTPUT
 
-<video src="./videos/store.mp4" width="600" controls>
-Your browser does not support the video tag.
-</video>
+[Watch the Video](https://youtu.be/1S81mX6-Tu0)
