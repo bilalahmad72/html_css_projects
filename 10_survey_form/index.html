@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <!-- <header>
+      <h1>Survey Form</h1>
+    </header> -->
+    <!-- Main -->
+    <main>
+      <div class="container">
+        <form action="#">
+          <h1>Feedback Survey Form</h1>
+
+          <!-- name field -->
+          <div class="field">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+
+          <!-- email field -->
+          <div class="field">
+            <label for="email">Email:</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+
+          <!-- age field -->
+          <div class="field">
+            <label for="age">Age:</label>
+            <input
+              type="number"
+              id="age"
+              name="age"
+              min="1"
+              max="100"
+              value="20"
+            />
+          </div>
+
+          <!-- Type of feedback -->
+          <div class="field">
+            <label for="type-of-feedback">Type of Feedback:</label>
+            <select name="type-of-feedback" id="type-of-feedback">
+              <option value="complaint">Complaint</option>
+              <option value="suggestion">Suggestion</option>
+              <option value="compliment">Compliment</option>
+            </select>
+          </div>
+
+          <!-- Services Used -->
+          <fieldset>
+            <legend>Services Used:</legend>
+            <div class="items">
+              <div class="item">
+                <input type="checkbox" id="service1" name="service1" />
+                <label for="service1">Service 1</label>
+              </div>
+              <div class="item">
+                <input type="checkbox" id="service2" name="service2" />
+                <label for="service2">Service 2</label>
+              </div>
+              <div class="item">
+                <input type="checkbox" id="service3" name="service3" />
+                <label for="service3">Service 3</label>
+              </div>
+            </div>
+          </fieldset>
+
+          <!-- Additional Comments -->
+          <div class="field">
+            <label for="comment-label">Additional Comments:</label>
+            <textarea
+              name="additional-comments"
+              id="additional-comments"
+              rows="5"
+            ></textarea>
+          </div>
+
+          <button type="submit">Submit Feedback</button>
+        </form>
+      </div>
+    </main>
+    <!-- Footer -->
+    <!-- <footer>
+      <p>&copy; 2023 Survey Form</p>
+    </footer> -->
+  </body>
+</html>
