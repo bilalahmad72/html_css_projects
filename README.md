@@ -1,4 +1,4 @@
-# 1) Profile UI Card
+# Profile UI Card
 
 Complete Project that have done with HTML CSS
 
@@ -15,7 +15,7 @@ Complete Project that have done with HTML CSS
 
 <br><br>
 
-# 2) Glassmorphism Flipping Card
+# Glassmorphism Flipping Card
 
 Complete Project that have done with HTML CSS
 
