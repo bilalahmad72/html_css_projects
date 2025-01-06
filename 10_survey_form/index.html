@@ -8,14 +8,15 @@
   </head>
   <body>
     <!-- Header -->
-    <header>
+    <!-- <header>
       <h1>Survey Form</h1>
-    </header>
+    </header> -->
     <!-- Main -->
     <main>
       <div class="container">
         <form action="#">
           <h1>Feedback Survey Form</h1>
+
           <!-- name field -->
           <div class="field">
             <label for="name">Name:</label>
@@ -27,6 +28,7 @@
               required
             />
           </div>
+
           <!-- email field -->
           <div class="field">
             <label for="email">Email:</label>
@@ -38,6 +40,7 @@
               required
             />
           </div>
+
           <!-- age field -->
           <div class="field">
             <label for="age">Age:</label>
@@ -50,6 +53,7 @@
               value="20"
             />
           </div>
+
           <!-- Type of feedback -->
           <div class="field">
             <label for="type-of-feedback">Type of Feedback:</label>
@@ -59,12 +63,43 @@
               <option value="compliment">Compliment</option>
             </select>
           </div>
+
+          <!-- Services Used -->
+          <fieldset>
+            <legend>Services Used:</legend>
+            <div class="items">
+              <div class="item">
+                <input type="checkbox" id="service1" name="service1" />
+                <label for="service1">Service 1</label>
+              </div>
+              <div class="item">
+                <input type="checkbox" id="service2" name="service2" />
+                <label for="service2">Service 2</label>
+              </div>
+              <div class="item">
+                <input type="checkbox" id="service3" name="service3" />
+                <label for="service3">Service 3</label>
+              </div>
+            </div>
+          </fieldset>
+
+          <!-- Additional Comments -->
+          <div class="field">
+            <label for="comment-label">Additional Comments:</label>
+            <textarea
+              name="additional-comments"
+              id="additional-comments"
+              rows="5"
+            ></textarea>
+          </div>
+
+          <button type="submit">Submit Feedback</button>
         </form>
       </div>
     </main>
     <!-- Footer -->
-    <footer>
+    <!-- <footer>
       <p>&copy; 2023 Survey Form</p>
-    </footer>
+    </footer> -->
   </body>
 </html>
