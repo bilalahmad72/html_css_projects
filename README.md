@@ -79,5 +79,20 @@ Complete Project that have done with HTML CSS
 
 ![Screenshot 2025-01-06 at 07-33-33 Business Home Page](https://github.com/user-attachments/assets/d1af0ef9-2197-4984-bbdb-54e66fbd8d97)
 
+---
 
+<br><br>
+
+# Survey Form Design 
+
+Complete Project that have done with HTML CSS
+
+## Technologies Used
+
+- HTML
+- CSS
+
+## OUTPUT
+
+![Screenshot 2025-01-06 at 11-38-04 Survey Form](https://github.com/user-attachments/assets/cf83a968-907b-4e4e-be68-83f3a21db228)
 
