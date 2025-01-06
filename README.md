@@ -61,3 +61,23 @@ Complete Project that have done with HTML CSS
 ## OUTPUT
 
 [Watch the Video](https://youtu.be/1S81mX6-Tu0)
+
+---
+
+<br><br>
+
+# Business Home Page Design
+
+Complete Project that have done with HTML CSS
+
+## Technologies Used
+
+- HTML
+- CSS
+
+## OUTPUT
+
+![Screenshot 2025-01-06 at 07-33-33 Business Home Page](https://github.com/user-attachments/assets/d1af0ef9-2197-4984-bbdb-54e66fbd8d97)
+
+
+
